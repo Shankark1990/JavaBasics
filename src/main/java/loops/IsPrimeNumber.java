@@ -10,19 +10,26 @@ public class IsPrimeNumber {
         int number = sc.nextInt();
         boolean isPrimeNumber = true;
 
-
-        for (int i = 2; i < number - 1; i++) {
-            if (number % i == 0) {
-                isPrimeNumber = false;
-                break;
-            }
-        }
-
-        if (isPrimeNumber) {
-            System.out.println(number + " is a prime number");
-        } else {
+        if (number % 2 == 0) {
             System.out.println(number + " is not a prime number");
+            sc.close();
+        } else {
+            for (int i = 3; i < (number) / 2; i = i + 2) {
+                if (number % i == 0) {
+                    isPrimeNumber = false;
+                    break;
+                }
+            }
+
+            if (isPrimeNumber) {
+                System.out.println(number + " is a prime number");
+            } else {
+                System.out.println(number + " is not a prime number");
+            }
+
+
         }
+
 
     }
 }
