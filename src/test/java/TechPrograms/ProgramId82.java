@@ -14,6 +14,20 @@ public class ProgramId82 {
         System.out.println(db2);
         System.out.println(db3);
 
+        int x = 10;
+        int y = 0;
+
+        if (x > y)
+            System.out.print("Hello");
+        else
+            System.out.print("Welcome");
+
+        System.out.print("Log" + x + ":" + y);
+
+        int xy=x++ + ++x;
+
+        System.out.println(xy);
+
 
     }
 }
