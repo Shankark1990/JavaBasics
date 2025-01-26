@@ -31,8 +31,8 @@ public class MinutesToDaysAndYear {
             int findYears = inputMins / (min * day * year);
             int findDays = inputMins / minutesInDay;
 
-            System.out.println(findYears);
-            System.out.println(findDays);
+            System.out.println("Years are: " + findYears);
+            System.out.println("Days are: " + findDays);
 
         } catch (Exception e) {
 
