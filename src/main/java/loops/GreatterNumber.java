@@ -17,6 +17,7 @@ public class GreatterNumber {
         System.out.print("Enter third number: ");
         num3 = sc.nextInt();
 
+        // Using if else
         if (num1 > num2 && num1 > num3) {
             System.out.println("Greatter number is: " + num1 + " amoung " + num1 + " " + num2 + " " + num3);
         } else if (num2 > num1 && num2 > num3) {
