@@ -10,12 +10,14 @@ public class ConversionInchesToMeters {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter inch value: ");
 
-        inch=sc.nextInt();
+//        inch=sc.nextInt();
+
+//        if()
 
         double meter;
-        meter=inch*0.0254;
+//        meter=inch*0.0254;
 
 //        if(inch !=)
-        System.out.println("Conversion of inch "+inch+" is to meter is "+meter);
+//        System.out.println("Conversion of inch "+inch+" is to meter is "+meter);
     }
 }
