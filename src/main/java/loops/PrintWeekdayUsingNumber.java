@@ -1,9 +1,11 @@
 package loops;
 
+
 import java.util.Scanner;
 
 public class PrintWeekdayUsingNumber {
     public static void main(String[] args) {
+
         int weekNumber;
         String weekDay;
 
