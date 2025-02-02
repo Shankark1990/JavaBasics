@@ -11,7 +11,9 @@ public class FibonacciSeries {
 
         for (int i = 2; i < count; i++) {
             num3 = num1 + num2;
+
             System.out.print(" " + num3);
+            
             num1 = num2;
             num2 = num3;
         }
