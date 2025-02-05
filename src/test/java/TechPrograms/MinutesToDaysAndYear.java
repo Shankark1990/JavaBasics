@@ -14,7 +14,6 @@ public class MinutesToDaysAndYear {
         System.out.print("Enter number of minutes: ");
 
 
-
         try {
             inputMins=Integer.parseInt(sc.next());
             int findYears = inputMins / (min * day * year);
