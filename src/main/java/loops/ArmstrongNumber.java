@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ArmstrongNumber {
 
+    // count the number of digits to use for power.
     public int power(int n) {
         int count = 0;
         while (n > 0) {
