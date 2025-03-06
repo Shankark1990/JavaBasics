@@ -11,5 +11,11 @@ public class ShortTypeDemo {
         float fl=(float) db;
 
         System.out.println(fl);
+
+        Short s1=(byte)130;
+        System.out.println(s1);
+        for(;;){
+            System.out.println("Hello");
+        }
     }
 }
