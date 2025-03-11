@@ -1,4 +1,4 @@
-package SeleniumLabs;
+package seleniumLabs;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -17,7 +17,7 @@ public class Screenshots {
 
             File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
-            FileUtils.copyFile(screenshotFile, new File("screenshots/" + screenshotName + "_" + time + ".png"));
+            FileUtils.copyFile(screenshotFile, new File("C:\\Users\\shakhara\\Workplace\\JavaBasics\\screenshots\\" + screenshotName + "_" + time + ".png"));
         } catch (Exception e) {
 
         }

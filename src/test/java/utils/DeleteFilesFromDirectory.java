@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class DeleteFilesFromDirectory {
     public static void deleteFiles() throws IOException {
-        FileUtils.cleanDirectory(new File("D:\\TechElliptica\\Projects\\JavaBasics\\screenshots"));
+        FileUtils.cleanDirectory(new File("C:\\Users\\shakhara\\Workplace\\JavaBasics\\screenshots\\"));
 
     }
 }

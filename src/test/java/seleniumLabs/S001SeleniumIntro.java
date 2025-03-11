@@ -1,4 +1,4 @@
-package SeleniumLabs;
+package seleniumLabs;
 
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.chrome.ChromeDriver;

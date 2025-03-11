@@ -1,4 +1,4 @@
-package SeleniumLabs;
+package seleniumLabs;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
@@ -6,7 +6,6 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.io.DataInput;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -20,7 +19,7 @@ public class SauceDemo {
         String userName = "standard_user";
         String password = "secret_sauce";
 
-        // enter user name
+        // enter username
         driver.findElement(By.xpath("//*[@id=\"user-name\"]")).sendKeys(userName);
         takeScreenshots(driver, userName);
 
@@ -68,6 +67,8 @@ public class SauceDemo {
 
             FileUtils.copyFile(screenshotFile, new File("screenshots/" + screenshotName + "_" + time + ".png"));
         } catch (Exception e) {
+
+            System.out.println(e.getMessage());
 
         }
     }
