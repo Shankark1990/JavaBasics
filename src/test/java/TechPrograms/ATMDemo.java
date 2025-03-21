@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class ATMDemo {
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
 
 //		Press 1 to check balance
 //		Press 2 to deposit amount

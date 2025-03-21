@@ -2,7 +2,7 @@ package assignments.methods;
 
 public class MethodCreation {
 
-    /*This is non static method*/
+    /*This is non-static method*/
     public int show(int a, int b) {
         System.out.println("This is non-static method");
         return 0;

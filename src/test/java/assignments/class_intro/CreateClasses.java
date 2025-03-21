@@ -4,7 +4,7 @@ public class CreateClasses {
 }
 
 class Human{
-    
+
 }
 class MobilePhone{
 
