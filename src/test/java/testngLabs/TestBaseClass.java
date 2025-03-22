@@ -9,9 +9,9 @@ import java.lang.reflect.Method;
 
 public class TestBaseClass {
 
-    ChromeDriver driver;
-    LoginModule loginModule;
-    Method method;
+    public ChromeDriver driver;
+    public LoginModule loginModule;
+    public Method method;
 
     @BeforeMethod
     public void setup(Method method) {

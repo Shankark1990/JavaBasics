@@ -5,15 +5,18 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pageobjects.SaucePageObjects;
 import seleniumLabs.Screenshots;
+import testngLabs.listener.RetryTestListner;
 import utils.DeleteFilesFromDirectory;
 
 import java.io.IOException;
 
 public class SauceTestNGDemo extends TestBaseClass {
-    @Test(priority = 1, invocationCount = 3)
+    @Test(priority = 1, retryAnalyzer = RetryTestListner.class)
     public void verify_success_login() throws IOException {
         DeleteFilesFromDirectory.deleteFiles();
-        loginModule.login("standard_user", "secret_sauce");
+        loginModule.login("", "secret_sauce");
+        String error_msg = driver.findElement(SaucePageObjects.errorMsg).getText();
+        Assert.assertEquals(error_msg,"Epic sadface: Password is required");
         Screenshots.takeScreenshots(driver, method.getName());
 
     }
