@@ -1,4 +1,4 @@
-package interview_programs;
+package interview_prep.recursion;
 
 public class PrintNumberUsingRecurrsion {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package interview_programs;
+package interview_prep.string;
 
 import java.util.Map;
 import java.util.TreeMap;

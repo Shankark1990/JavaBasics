@@ -1,6 +1,8 @@
 package assignments.methods;
 
 public class NonParameterizedMethod {
+
+    
     public void test(){
         System.out.println("Non-static, non parameterized method");
     }
